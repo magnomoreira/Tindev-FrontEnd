@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../assets/logo.svg';
+import './login.css';
 
 export default function login (){
     return (
@@ -7,7 +8,7 @@ export default function login (){
         <form>
         <img src = {Logo} alt = "Tindev" />
         <input placeholder =" Digite seu" ></input>
-        <button></button>
+        <button>Enviar</button>
         </form>
     </div> 
         
